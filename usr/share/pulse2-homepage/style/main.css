@@ -1,0 +1,37 @@
+#doc4 h1 {
+    font-size: 1.6em;
+}
+
+div.bottom-menu {
+  margin-top: 35px;
+  margin-left: 35px;
+  font-size: 1.1em;
+}
+div.bottom-menu a.button
+{
+  text-align: center;
+float: left;
+width: 230px;
+margin: 0 20px;
+background: url('../images/top-bg-blue-gradient.png') repeat-x;
+background: #2854B0;
+border: #bbb 2px solid;
+border-radius: 30px;
+font-weight: bold;
+padding: 1em 1em;
+text-shadow: #444444;
+box-shadow: 1px 1px 5px #000; 
+color: #4776D3;
+color: #222;
+color: white;
+}
+div.bottom-menu a.button:hover
+{
+text-decoration: none;
+text-shadow: 5px 5px 60px #3164C4;
+text-shadow: 5px 5px 60px #fff;
+box-shadow: 1px 1px 10px #000; 
+color: #444;
+color: white;
+background: #253561;
+}

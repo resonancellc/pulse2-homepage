@@ -1,0 +1,176 @@
+/*! Mandriva stylesheet for global nav bar and default global style. */
+html { margin: 0; padding: 0; }
+body {
+    margin: 0; padding: 0;
+    background: #fff url(../images/top-bg-blue-gradient.png) repeat-x;
+    background-position: 0 -15px;
+    font-family: "Lucida Grande", "Lucida Sans", Sans, Verdana, Tahoma, Arial, sans-serif;
+}
+img { border: 0; }
+a, a:link { color: #2854b0; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 0.4em 0; font-weight: bold; }
+/*h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #000; text-decoration: none; }*/
+p { margin: 0 0 0.8em 0; }
+em { font-style: italic; }
+strong { font-weight: bold; }
+
+.clear { clear: both; }
+
+/** Global nav */
+#g { margin: 0; padding: 0; }
+#gn {
+    width: 980px;
+    height: 52px;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent;
+    font-family: "Lucida Grande", "Lucida Sans", Sans, Verdana, Tahoma, Arial, sans-serif;
+    font-size: 14px; color: #000;
+}
+#gn .c { padding: 0; margin: 0 auto; }
+#gnt { margin: 0; padding: 0; list-style: none; width: 100%; background: transparent; }
+#gnt li { margin: 0; padding: 0; float: left; display: inline; list-style: none; text-align: center; }
+#gnt li a, #gnt li a:link, #gnt li span.dis {
+    margin: 0;
+    padding: 24px 14px 0px 14px;
+    display: block;
+    height: 30px;
+    color: #444;
+    color: #21449c;
+    -webkit-text-shadow: 0 1px 3px #ffffff; text-shadow: 0 1px 3px #ffffff; -moz-text-shadow: 0px 1px 3px #fff000;
+    font-weight: normal;
+    min-width: 2.5em;
+    line-height: 18px;
+}
+
+#gnt #gnt-mandriva a,
+#gnt #gnt-mandriva a:link { padding: 8px 18px 16px 16px; }
+#gnt #gnt-mandriva a img { height: 33px; margin: 0; padding: 0; }
+
+#gnt #gnt-search { height: 30px; padding: 22px 0 0 14px; margin: 0; }
+#gnt #gnt-search form {}
+#gnt #gnt-search input { padding: 0; margin: 0; width: 7em; }
+
+#gn a, #gn a:link { text-decoration: none; }
+
+#gn form, #gn input { margin: 0; padding: 0; }
+#gn form { margin-top: -2px; }
+
+#gnc { clear: both; }
+
+#gnt li.selected {
+    background: #fff;
+    /*border-right: 1px solid #fff;*/
+    /*
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#888));
+    -webkit-background-origin: padding;
+    -webkit-background-clip: content;
+    */
+}
+
+#gnt-mandriva.selected { background: transparent !important; }
+
+#gnt .selected a {
+    color: #000;
+    font-weight: bold;
+}
+#gnt li:hover {}
+#gnt li:hover a { color: #000; }
+
+#gnt .disabled a { color: #444;}
+
+/** */
+.raw { margin: auto;  width: 974px; text-align: left; /*background: #eee;*/ }
+#ftc { width: 974px; margin: auto; }
+#footer { font-size: 80%; margin-top: 2em; border-top: 1px solid #ddd; padding-top: 1em; height: 5em; }
+
+.feat { margin-bottom: 3em; }
+.feat img { float: left; margin: 4px 1em 1.5em 0; width: 180px; height: 140px; }
+
+.feat.even {}
+.feat.even img { float: right; margin: 0 0 1.5em 1em; width: 180px; height: 140px; }
+
+.ph,
+.productheader { border-bottom: 1px solid #ddd; height: 30px; display: block; margin-bottom: 1em; position: relative; padding-bottom: 4px; }
+
+.ph h1, .ph h2, .ph span.title,
+.productheader h1,
+.productheader h2,
+.productheader span.title { font-size: 150%; font-weight: normal; float: left; line-height: 30px; }
+
+.ph h1 img, .ph span.title img { margin: 0 0.5em 0 0; float: left; }
+
+.ph ul,
+.productheader ul { display: block; margin: 0; padding: 0; float: right; height: 30px; vertical-align: bottom; }
+
+.ph ul li,
+.productheader ul li { display: inline; list-style: none; float: left; padding-left: 2em; line-height: 33px; font-size: 90%;}
+
+.ph ul li a,
+.productheader ul li a { color: #444; }
+
+.ph ul li.selected,
+.ph ul li.selected a { font-weight: bold; color: #000; }
+
+.ph ul li strong a,
+.productheader ul li strong a { color: #000; }
+
+.ph ul li form,
+.productheader ul li form { display: inline; }
+
+.ph ul li img { height: 16px; }
+
+.ph ul li.act { font-style: italic; }
+
+.ph p.act { float: right; margin: 0 0 0 2em;}
+.ph p.act a { padding: 0.3em 1em; background: #555; font-weight: bold; color: #fff;
+    font-size: 80%; line-height: 32px; 
+    -webkit-box-shadow: 0 1px 2px #000; -moz-box-shadow: 0 1px 2px #000; box-shadow: 0 1px 2px #000;
+    text-shadow: 0 1px 2px #000; -moz-text-shadow: 0 1px 2px #000;
+    -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+
+.powerpack div.ph p.act a { background: #21449c; }
+
+.ph p.act.selected a {
+    background: #dddddd; color: #000;
+    text-shadow: 0 1px 2px #fff; -moz-text-shadow: 0 1px 2px #fff;
+    -webkit-box-shadow: 0 -1px 2px #aaa; -moz-box-shadow: 0 -1px 2px #aaa; box-shadow: 0 -1px 2px #aaa;
+}
+
+#hd { margin-bottom: 1em; }
+
+.sitemap #hd h1 { border-bottom: 1px solid #ddd; padding-bottom: 0.3em; margin-bottom: 1em; }
+.sitemap h1 { font-size: 200%; font-weight: normal; }
+.sitemap h2 { font-size: 140%; font-weight: normal; border-bottom: 1px solid #ddd; }
+.sitemap h2 { clear: both; margin-top: 2em; }
+.sitemap div.context { width: 320px; float: left; margin-bottom: 2em; }
+.sitemap h3 { font-size: 100%; }
+.sitemap .context ul { margin: 0; padding: 0; }
+.sitemap .context ul li { list-style: none; }
+
+/** --- */
+#content { background: #ffffff; border-top: 2px solid #ccd; padding: 0.5em 0 0 0; margin: 0; clear: both; }
+p.b, ul.b { float: left; height: 30px; padding: 0; margin: 0.5em 0 1em 0; }
+p.b { margin-left: 0.5em; }
+ul.b { float: left; margin: 0.5em 0 1em 1.5em; }
+ul.b li { float: left; margin: 0; padding: 0; height: 40px; list-style: none; font-size: 95%; }
+ul.b li:last-child { border-right: none; }
+ul.b li a {
+    display: block; padding: 1.274em 1em 1em 1em !important; min-width: 3em;
+    text-align: center;
+    text-shadow: 0 1px 2px #fff;
+}
+ul.b li.selected {
+    background: #fff;
+    -webkit-box-shadow: 0 -2px 3px #889; -moz-box-shadow: 0 -2px 3px #888; box-shadow: 0 -2px 3px #888;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
+    background: -moz-linear-gradient(top, #dddddd, #ffffff);
+    background: gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
+    padding-bottom: 14px !important;
+}
+ul.b li.selected a { color: #000; padding-bottom: 1em; }
+ul.b li a:active { color: #fff !important; text-shadow: 0 1px 4px #000 !important; }
+p.b form { padding: 1em; }
+

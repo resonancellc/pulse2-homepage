@@ -1,0 +1,26 @@
+@import url(base.css);
+
+/*
+h2 { float: left; }
+div.interview { font-family: Times New Roman; font-size: 115%; }
+div.interview dt { font-family: sans-serif;  }
+div.clear { clear: both; }
+
+
+ul.nav3 { float: right; list-style: none; margin-top: 25px; }
+
+ul.nav3 li { display: inline; border: 1px solid #aaa; padding: 3px; }
+*/
+
+.clear { clear: both; }
+hr { clear: both; display: none; }
+
+.notfound #content .row { width: 100%; margin-bottom: 2em; margin-top: 3em; }
+.notfound #content .row .item { width: 46%; float: left; padding: 6px; padding-top: 0px; border-left: 8px solid #eee; }
+.notfound #content .row .item h3 { margin: 0px; }
+.notfound #content .row .item li { margin-bottom: 0.3em; }
+.notfound #content .row .item p { margin-left: 1.5em; }
+.notfound #content .row .item form label { font-weight: bold; display: block; }
+.notfound #content .row .item form input[type=text] { width: 50%; }
+.notfound #content .row .item form textarea { width: 80%; height: 6em; }
+
